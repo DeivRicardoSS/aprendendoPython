@@ -116,6 +116,7 @@ def calcularCpfSecret(string):
 controle = 0
 while controle == 0:
     limpar()
+    print("CPF/CNPJ | Validator & Generator")
     controle = int(input("Digite:\n1 para calcular CPF\n2 para calcular CNPJ\n"))
     if controle == 1:
         limpar()
@@ -152,5 +153,6 @@ while controle == 0:
 
     controle = int(input("Digite: 0 ==> Reiniciar Programa || 1 ==> encerrar\n"))
     if controle != 0:
-        print("Fim do Programa!\n© Deivs")
+        print("Fim do Programa!\n© Deivyson Ricardo")
+        input()
 
